@@ -670,14 +670,14 @@ assets:
   - name: remastered\obj\P_EX103_ULTF.a.us\-1.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX100_ULTF.a.us\-1.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-5.dds
     type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-2.dds
   multi:
   - name: remastered\obj\P_EX103_ULTF.a.us\-2.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX100_ULTF.a.us\-2.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-1.dds
     type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-3.dds
   multi:
@@ -698,7 +698,7 @@ assets:
   - name: remastered\obj\P_EX103_ULTF.a.us\-5.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX100_ULTF.a.us\-5.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-2.dds
     type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-6.dds
   multi:
