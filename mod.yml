@@ -21,6 +21,28 @@ assets:
     source:
     - name: sys.yml
       language: en
+- name: remastered\obj\P_EX101.a.us\voice\battle\us\fxion
+  multi:
+  - name: remastered\obj\P_EX101_BTLF.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX101_KH1F.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX101_MAGF.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX101_TRIF.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX101_ULTF.a.us\voice\battle\us\fxion
+  method: copy
+  source:
+  - name: kh1
+- name: remastered\obj\P_EX103.a.us\voice\battle\us\fxion
+  multi:
+  - name: remastered\obj\P_EX103_BTLF.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX103_KH1F.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX103_MAGF.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX103_TRIF.a.us\voice\battle\us\fxion
+  - name: remastered\obj\P_EX103_ULTF.a.us\voice\battle\us\fxion
+  method: copy
+  source:
+  - name: kh3
 - name: obj\P_EX101.a.us
   method: copy
   source:
@@ -214,38 +236,80 @@ assets:
   source:
   - name: obj\P_EX103_ULTF.mdlx
 - name: remastered\obj\P_EX101.a.us\-0.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-0.dds
+  - name: remastered\obj\P_EX103.a.us\-0.dds
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-0.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101.a.us\-0.dds
+  - name: remastered\obj\P_EX100.a.us\-0.dds
+    type: internal
 - name: remastered\obj\P_EX101.a.us\-1.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-1.dds
+  - name: remastered\obj\P_EX103.a.us\-1.dds
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-1.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101.a.us\-1.dds
+  - name: remastered\obj\P_EX100.a.us\-1.dds
+    type: internal
 - name: remastered\obj\P_EX101.a.us\-2.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-2.dds
+  - name: remastered\obj\P_EX103.a.us\-2.dds
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-2.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101.a.us\-2.dds
+  - name: remastered\obj\P_EX100.a.us\-2.dds
+    type: internal
 - name: remastered\obj\P_EX101.a.us\-3.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-3.dds
+  - name: remastered\obj\P_EX103.a.us\-3.dds
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-3.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101.a.us\-3.dds
+  - name: remastered\obj\P_EX100.a.us\-3.dds
+    type: internal
 - name: remastered\obj\P_EX101.a.us\-4.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-4.dds
+  - name: remastered\obj\P_EX103.a.us\-4.dds
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-4.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101.a.us\-4.dds
+  - name: remastered\obj\P_EX100.a.us\-4.dds
+    type: internal
 - name: remastered\obj\P_EX101.a.us\-5.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-5.dds
+  - name: remastered\obj\P_EX103.a.us\-5.dds
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-5.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101.a.us\-5.dds
+  - name: remastered\obj\P_EX100.a.us\-5.dds
+    type: internal
 - name: remastered\obj\P_EX101.a.us\-6.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-6.dds
+  - name: remastered\obj\P_EX103.a.us\-6.dds
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-6.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101.a.us\-6.dds
+  - name: remastered\obj\P_EX100.a.us\-6.dds
+    type: internal
 - name: remastered\obj\P_EX101.a.us\-7.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-7.dds
+  - name: remastered\obj\P_EX103.a.us\-7.dds
+  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-7.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101.a.us\-7.dds
+  - name: remastered\obj\P_EX100.a.us\-7.dds
+    type: internal
 - name: remastered\obj\P_EX101.a.us\-8.dds
+  multi:
+  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-8.dds
   method: copy
   source:
   - name: remastered\obj\P_EX101.a.us\-8.dds
@@ -273,42 +337,6 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX101.mdlx\-5.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-0.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-1.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-2.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-3.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-4.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-5.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-6.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-7.dds
-- name: remastered\obj\P_EX101_AL_CARPET.a.us\-8.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_AL_CARPET.a.us\-8.dds
 - name: remastered\obj\P_EX101_AL_CARPET.mdlx\-0.dds
   method: copy
   source:
@@ -334,21 +362,33 @@ assets:
   source:
   - name: remastered\obj\P_EX101_AL_CARPET.mdlx\-5.dds
 - name: remastered\obj\P_EX101_BTLF.a.us\-0.dds
+  multi:
+  - name: remastered\obj\P_EX103_BTLF.a.us\-0.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_BTLF.a.us\-0.dds
+  - name: remastered\obj\P_EX100_BTLF.a.us\-0.dds
+    type: internal
 - name: remastered\obj\P_EX101_BTLF.a.us\-1.dds
+  multi:
+  - name: remastered\obj\P_EX103_BTLF.a.us\-1.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_BTLF.a.us\-1.dds
+  - name: remastered\obj\P_EX100_BTLF.a.us\-1.dds
+    type: internal
 - name: remastered\obj\P_EX101_BTLF.a.us\-2.dds
+  multi:
+  - name: remastered\obj\P_EX103_BTLF.a.us\-2.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_BTLF.a.us\-2.dds
+  - name: remastered\obj\P_EX100_BTLF.a.us\-2.dds
+    type: internal
 - name: remastered\obj\P_EX101_BTLF.a.us\-3.dds
+  multi:
+  - name: remastered\obj\P_EX103_BTLF.a.us\-3.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_BTLF.a.us\-3.dds
+  - name: remastered\obj\P_EX100_BTLF.a.us\-3.dds
+    type: internal
 - name: remastered\obj\P_EX101_BTLF.a.us\-4.dds
   method: copy
   source:
@@ -378,17 +418,26 @@ assets:
   source:
   - name: remastered\obj\P_EX101_BTLF.mdlx\-5.dds
 - name: remastered\obj\P_EX101_HTLF.a.us\-0.dds
+  multi:
+  - name: remastered\obj\P_EX103_HTLF.a.us\-0.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_HTLF.a.us\-0.dds
+  - name: remastered\obj\P_EX100_HTLF.a.us\-0.dds
+    type: internal
 - name: remastered\obj\P_EX101_HTLF.a.us\-1.dds
+  multi:
+  - name: remastered\obj\P_EX103_HTLF.a.us\-1.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_HTLF.a.us\-1.dds
+  - name: remastered\obj\P_EX100_HTLF.a.us\-1.dds
+    type: internal
 - name: remastered\obj\P_EX101_HTLF.a.us\-2.dds
+  multi:
+  - name: remastered\obj\P_EX103_HTLF.a.us\-2.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_HTLF.a.us\-2.dds
+  - name: remastered\obj\P_EX100_HTLF.a.us\-2.dds
+    type: internal
 - name: remastered\obj\P_EX101_HTLF.a.us\-3.dds
   method: copy
   source:
@@ -410,41 +459,68 @@ assets:
   source:
   - name: remastered\obj\P_EX101_HTLF.mdlx\-3.dds
 - name: remastered\obj\P_EX101_KH1F.a.us\-0.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-0.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-0.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-0.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-1.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-1.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-1.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-1.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-2.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-2.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-2.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-2.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-3.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-3.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-3.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-3.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-4.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-4.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-4.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-4.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-5.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-5.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-5.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-5.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-6.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-6.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-6.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-6.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-7.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-7.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-7.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-7.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-8.dds
+  multi:
+  - name: remastered\obj\P_EX103_KH1F.a.us\-8.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_KH1F.a.us\-8.dds
+  - name: remastered\obj\P_EX100_KH1F.a.us\-8.dds
+    type: internal
 - name: remastered\obj\P_EX101_KH1F.a.us\-9.dds
   method: copy
   source:
@@ -474,13 +550,19 @@ assets:
   source:
   - name: remastered\obj\P_EX101_KH1F.mdlx\-5.dds
 - name: remastered\obj\P_EX101_MAGF.a.us\-0.dds
+  multi:
+  - name: remastered\obj\P_EX103_MAGF.a.us\-0.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_MAGF.a.us\-0.dds
+  - name: remastered\obj\P_EX100_MAGF.a.us\-0.dds
+    type: internal
 - name: remastered\obj\P_EX101_MAGF.a.us\-1.dds
+  multi:
+  - name: remastered\obj\P_EX103_MAGF.a.us\-1.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_MAGF.a.us\-1.dds
+  - name: remastered\obj\P_EX100_MAGF.a.us\-1.dds
+    type: internal
 - name: remastered\obj\P_EX101_MAGF.a.us\-2.dds
   method: copy
   source:
@@ -510,25 +592,40 @@ assets:
   source:
   - name: remastered\obj\P_EX101_MAGF.mdlx\-5.dds
 - name: remastered\obj\P_EX101_TRIF.a.us\-0.dds
+  multi:
+  - name: remastered\obj\P_EX103_TRIF.a.us\-0.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_TRIF.a.us\-0.dds
+  - name: remastered\obj\P_EX100_TRIF.a.us\-0.dds
+    type: internal
 - name: remastered\obj\P_EX101_TRIF.a.us\-1.dds
+  multi:
+  - name: remastered\obj\P_EX103_TRIF.a.us\-1.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_TRIF.a.us\-1.dds
+  - name: remastered\obj\P_EX100_TRIF.a.us\-1.dds
+    type: internal
 - name: remastered\obj\P_EX101_TRIF.a.us\-2.dds
+  multi:
+  - name: remastered\obj\P_EX103_TRIF.a.us\-2.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_TRIF.a.us\-2.dds
+  - name: remastered\obj\P_EX100_TRIF.a.us\-2.dds
+    type: internal
 - name: remastered\obj\P_EX101_TRIF.a.us\-3.dds
+  multi:
+  - name: remastered\obj\P_EX103_TRIF.a.us\-3.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_TRIF.a.us\-3.dds
+  - name: remastered\obj\P_EX100_TRIF.a.us\-3.dds
+    type: internal
 - name: remastered\obj\P_EX101_TRIF.a.us\-4.dds
+  multi:
+  - name: remastered\obj\P_EX103_TRIF.a.us\-4.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_TRIF.a.us\-4.dds
+  - name: remastered\obj\P_EX100_TRIF.a.us\-4.dds
+    type: internal
 - name: remastered\obj\P_EX101_TRIF.a.us\-5.dds
   method: copy
   source:
@@ -557,50 +654,80 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX101_TRIF.mdlx\-5.dds
-- name: remastered\obj\P_EX101_ULTF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-0.dds
-- name: remastered\obj\P_EX101_ULTF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-1.dds
 - name: remastered\obj\P_EX101_ULTF.a.us\-10.dds
   method: copy
   source:
   - name: remastered\obj\P_EX101_ULTF.a.us\-10.dds
+- name: remastered\obj\P_EX101_ULTF.a.us\-0.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-0.dds
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_ULTF.a.us\-0.dds
+    type: internal
+- name: remastered\obj\P_EX101_ULTF.a.us\-1.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-1.dds
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_ULTF.a.us\-1.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-2.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-2.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-2.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-2.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-3.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-3.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-3.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-3.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-4.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-4.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-4.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-4.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-5.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-5.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-5.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-5.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-6.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-6.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-6.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-6.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-7.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-7.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-7.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-7.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-8.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-8.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-8.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-8.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.a.us\-9.dds
+  multi:
+  - name: remastered\obj\P_EX103_ULTF.a.us\-9.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX101_ULTF.a.us\-9.dds
+  - name: remastered\obj\P_EX100_ULTF.a.us\-9.dds
+    type: internal
 - name: remastered\obj\P_EX101_ULTF.mdlx\-0.dds
   method: copy
   source:
@@ -625,450 +752,6 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX101_ULTF.mdlx\-5.dds
-- name: remastered\obj\P_EX102.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-0.dds
-- name: remastered\obj\P_EX102.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-1.dds
-- name: remastered\obj\P_EX102.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-2.dds
-- name: remastered\obj\P_EX102.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-3.dds
-- name: remastered\obj\P_EX102.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-4.dds
-- name: remastered\obj\P_EX102.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-5.dds
-- name: remastered\obj\P_EX102.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-6.dds
-- name: remastered\obj\P_EX102.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-7.dds
-- name: remastered\obj\P_EX102.a.us\-8.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.a.us\-8.dds
-- name: remastered\obj\P_EX102.mdlx\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.mdlx\-0.dds
-- name: remastered\obj\P_EX102.mdlx\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.mdlx\-1.dds
-- name: remastered\obj\P_EX102.mdlx\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.mdlx\-2.dds
-- name: remastered\obj\P_EX102.mdlx\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.mdlx\-3.dds
-- name: remastered\obj\P_EX102.mdlx\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.mdlx\-4.dds
-- name: remastered\obj\P_EX102.mdlx\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102.mdlx\-5.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-0.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-1.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-2.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-3.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-4.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-5.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-6.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-7.dds
-- name: remastered\obj\P_EX102_AL_CARPET.a.us\-8.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.a.us\-8.dds
-- name: remastered\obj\P_EX102_AL_CARPET.mdlx\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.mdlx\-0.dds
-- name: remastered\obj\P_EX102_AL_CARPET.mdlx\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.mdlx\-1.dds
-- name: remastered\obj\P_EX102_AL_CARPET.mdlx\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.mdlx\-2.dds
-- name: remastered\obj\P_EX102_AL_CARPET.mdlx\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.mdlx\-3.dds
-- name: remastered\obj\P_EX102_AL_CARPET.mdlx\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.mdlx\-4.dds
-- name: remastered\obj\P_EX102_AL_CARPET.mdlx\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_AL_CARPET.mdlx\-5.dds
-- name: remastered\obj\P_EX102_BTLF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.a.us\-0.dds
-- name: remastered\obj\P_EX102_BTLF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.a.us\-1.dds
-- name: remastered\obj\P_EX102_BTLF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.a.us\-2.dds
-- name: remastered\obj\P_EX102_BTLF.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.a.us\-3.dds
-- name: remastered\obj\P_EX102_BTLF.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.a.us\-4.dds
-- name: remastered\obj\P_EX102_BTLF.mdlx\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.mdlx\-0.dds
-- name: remastered\obj\P_EX102_BTLF.mdlx\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.mdlx\-1.dds
-- name: remastered\obj\P_EX102_BTLF.mdlx\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.mdlx\-2.dds
-- name: remastered\obj\P_EX102_BTLF.mdlx\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.mdlx\-3.dds
-- name: remastered\obj\P_EX102_BTLF.mdlx\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.mdlx\-4.dds
-- name: remastered\obj\P_EX102_BTLF.mdlx\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_BTLF.mdlx\-5.dds
-- name: remastered\obj\P_EX102_HTLF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_HTLF.a.us\-0.dds
-- name: remastered\obj\P_EX102_HTLF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_HTLF.a.us\-1.dds
-- name: remastered\obj\P_EX102_HTLF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_HTLF.a.us\-2.dds
-- name: remastered\obj\P_EX102_HTLF.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_HTLF.a.us\-3.dds
-- name: remastered\obj\P_EX102_HTLF.mdlx\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_HTLF.mdlx\-0.dds
-- name: remastered\obj\P_EX102_HTLF.mdlx\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_HTLF.mdlx\-1.dds
-- name: remastered\obj\P_EX102_HTLF.mdlx\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_HTLF.mdlx\-2.dds
-- name: remastered\obj\P_EX102_HTLF.mdlx\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_HTLF.mdlx\-3.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-0.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-1.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-2.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-3.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-4.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-5.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-6.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-7.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-8.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-8.dds
-- name: remastered\obj\P_EX102_KH1F.a.us\-9.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.a.us\-9.dds
-- name: remastered\obj\P_EX102_KH1F.mdlx\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.mdlx\-0.dds
-- name: remastered\obj\P_EX102_KH1F.mdlx\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.mdlx\-1.dds
-- name: remastered\obj\P_EX102_KH1F.mdlx\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.mdlx\-2.dds
-- name: remastered\obj\P_EX102_KH1F.mdlx\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.mdlx\-3.dds
-- name: remastered\obj\P_EX102_KH1F.mdlx\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.mdlx\-4.dds
-- name: remastered\obj\P_EX102_KH1F.mdlx\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_KH1F.mdlx\-5.dds
-- name: remastered\obj\P_EX102_MAGF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.a.us\-0.dds
-- name: remastered\obj\P_EX102_MAGF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.a.us\-1.dds
-- name: remastered\obj\P_EX102_MAGF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.a.us\-2.dds
-- name: remastered\obj\P_EX102_MAGF.mdlx\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.mdlx\-0.dds
-- name: remastered\obj\P_EX102_MAGF.mdlx\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.mdlx\-1.dds
-- name: remastered\obj\P_EX102_MAGF.mdlx\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.mdlx\-2.dds
-- name: remastered\obj\P_EX102_MAGF.mdlx\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.mdlx\-3.dds
-- name: remastered\obj\P_EX102_MAGF.mdlx\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.mdlx\-4.dds
-- name: remastered\obj\P_EX102_MAGF.mdlx\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_MAGF.mdlx\-5.dds
-- name: remastered\obj\P_EX102_TRIF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.a.us\-0.dds
-- name: remastered\obj\P_EX102_TRIF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.a.us\-1.dds
-- name: remastered\obj\P_EX102_TRIF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.a.us\-2.dds
-- name: remastered\obj\P_EX102_TRIF.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.a.us\-3.dds
-- name: remastered\obj\P_EX102_TRIF.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.a.us\-4.dds
-- name: remastered\obj\P_EX102_TRIF.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.a.us\-5.dds
-- name: remastered\obj\P_EX102_TRIF.mdlx\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.mdlx\-0.dds
-- name: remastered\obj\P_EX102_TRIF.mdlx\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.mdlx\-1.dds
-- name: remastered\obj\P_EX102_TRIF.mdlx\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.mdlx\-2.dds
-- name: remastered\obj\P_EX102_TRIF.mdlx\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.mdlx\-3.dds
-- name: remastered\obj\P_EX102_TRIF.mdlx\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.mdlx\-4.dds
-- name: remastered\obj\P_EX102_TRIF.mdlx\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_TRIF.mdlx\-5.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-0.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-1.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-10.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-10.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-2.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-3.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-4.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-5.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-6.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-7.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-8.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-8.dds
-- name: remastered\obj\P_EX102_ULTF.a.us\-9.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.a.us\-9.dds
-- name: remastered\obj\P_EX102_ULTF.mdlx\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.mdlx\-0.dds
-- name: remastered\obj\P_EX102_ULTF.mdlx\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.mdlx\-1.dds
-- name: remastered\obj\P_EX102_ULTF.mdlx\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.mdlx\-2.dds
-- name: remastered\obj\P_EX102_ULTF.mdlx\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.mdlx\-3.dds
-- name: remastered\obj\P_EX102_ULTF.mdlx\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.mdlx\-4.dds
-- name: remastered\obj\P_EX102_ULTF.mdlx\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX102_ULTF.mdlx\-5.dds
-- name: remastered\obj\P_EX103.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103.a.us\-0.dds
-- name: remastered\obj\P_EX103.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103.a.us\-1.dds
-- name: remastered\obj\P_EX103.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103.a.us\-2.dds
-- name: remastered\obj\P_EX103.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103.a.us\-3.dds
-- name: remastered\obj\P_EX103.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103.a.us\-4.dds
-- name: remastered\obj\P_EX103.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103.a.us\-5.dds
-- name: remastered\obj\P_EX103.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103.a.us\-6.dds
-- name: remastered\obj\P_EX103.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103.a.us\-7.dds
 - name: remastered\obj\P_EX103.a.us\-8.dds
   method: copy
   source:
@@ -1097,38 +780,6 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103.mdlx\-5.dds
-- name: remastered\obj\P_EX103_AL_CARPET.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-0.dds
-- name: remastered\obj\P_EX103_AL_CARPET.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-1.dds
-- name: remastered\obj\P_EX103_AL_CARPET.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-2.dds
-- name: remastered\obj\P_EX103_AL_CARPET.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-3.dds
-- name: remastered\obj\P_EX103_AL_CARPET.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-4.dds
-- name: remastered\obj\P_EX103_AL_CARPET.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-5.dds
-- name: remastered\obj\P_EX103_AL_CARPET.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-6.dds
-- name: remastered\obj\P_EX103_AL_CARPET.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_AL_CARPET.a.us\-7.dds
 - name: remastered\obj\P_EX103_AL_CARPET.a.us\-8.dds
   method: copy
   source:
@@ -1157,22 +808,6 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103_AL_CARPET.mdlx\-5.dds
-- name: remastered\obj\P_EX103_BTLF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_BTLF.a.us\-0.dds
-- name: remastered\obj\P_EX103_BTLF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_BTLF.a.us\-1.dds
-- name: remastered\obj\P_EX103_BTLF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_BTLF.a.us\-2.dds
-- name: remastered\obj\P_EX103_BTLF.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_BTLF.a.us\-3.dds
 - name: remastered\obj\P_EX103_BTLF.a.us\-4.dds
   method: copy
   source:
@@ -1201,18 +836,6 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103_BTLF.mdlx\-5.dds
-- name: remastered\obj\P_EX103_HTLF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_HTLF.a.us\-0.dds
-- name: remastered\obj\P_EX103_HTLF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_HTLF.a.us\-1.dds
-- name: remastered\obj\P_EX103_HTLF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_HTLF.a.us\-2.dds
 - name: remastered\obj\P_EX103_HTLF.a.us\-3.dds
   method: copy
   source:
@@ -1233,42 +856,6 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103_HTLF.mdlx\-3.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-0.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-1.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-2.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-3.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-4.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-5.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-6.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-7.dds
-- name: remastered\obj\P_EX103_KH1F.a.us\-8.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_KH1F.a.us\-8.dds
 - name: remastered\obj\P_EX103_KH1F.a.us\-9.dds
   method: copy
   source:
@@ -1297,14 +884,6 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103_KH1F.mdlx\-5.dds
-- name: remastered\obj\P_EX103_MAGF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_MAGF.a.us\-0.dds
-- name: remastered\obj\P_EX103_MAGF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_MAGF.a.us\-1.dds
 - name: remastered\obj\P_EX103_MAGF.a.us\-2.dds
   method: copy
   source:
@@ -1333,26 +912,6 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103_MAGF.mdlx\-5.dds
-- name: remastered\obj\P_EX103_TRIF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_TRIF.a.us\-0.dds
-- name: remastered\obj\P_EX103_TRIF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_TRIF.a.us\-1.dds
-- name: remastered\obj\P_EX103_TRIF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_TRIF.a.us\-2.dds
-- name: remastered\obj\P_EX103_TRIF.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_TRIF.a.us\-3.dds
-- name: remastered\obj\P_EX103_TRIF.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_TRIF.a.us\-4.dds
 - name: remastered\obj\P_EX103_TRIF.a.us\-5.dds
   method: copy
   source:
@@ -1381,50 +940,10 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103_TRIF.mdlx\-5.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-0.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-0.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-1.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-1.dds
 - name: remastered\obj\P_EX103_ULTF.a.us\-10.dds
   method: copy
   source:
   - name: remastered\obj\P_EX103_ULTF.a.us\-10.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-2.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-2.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-3.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-3.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-4.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-4.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-5.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-5.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-6.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-6.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-7.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-7.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-8.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-8.dds
-- name: remastered\obj\P_EX103_ULTF.a.us\-9.dds
-  method: copy
-  source:
-  - name: remastered\obj\P_EX103_ULTF.a.us\-9.dds
 - name: remastered\obj\P_EX103_ULTF.mdlx\-0.dds
   method: copy
   source:
@@ -1449,123 +968,3 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103_ULTF.mdlx\-5.dds
-- name: voice\us\battle\al1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\al1_sora.win32.scd
-- name: voice\us\battle\al3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\al3_sora.win32.scd
-- name: voice\us\battle\bb1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\bb1_sora.win32.scd
-- name: voice\us\battle\bb3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\bb3_sora.win32.scd
-- name: voice\us\battle\ca1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\ca1_sora.win32.scd
-- name: voice\us\battle\ca3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\ca3_sora.win32.scd
-- name: voice\us\battle\dc1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\dc1_sora.win32.scd
-- name: voice\us\battle\dc3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\dc3_sora.win32.scd
-- name: voice\us\battle\eh1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\eh1_sora.win32.scd
-- name: voice\us\battle\eh3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\eh3_sora.win32.scd
-- name: voice\us\battle\hb1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\hb1_sora.win32.scd
-- name: voice\us\battle\hb3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\hb3_sora.win32.scd
-- name: voice\us\battle\he1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\he1_sora.win32.scd
-- name: voice\us\battle\he3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\he3_sora.win32.scd
-- name: voice\us\battle\lk1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\lk1_sora.win32.scd
-- name: voice\us\battle\lk3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\lk3_sora.win32.scd
-- name: voice\us\battle\lm1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\lm1_sora.win32.scd
-- name: voice\us\battle\lm3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\lm3_sora.win32.scd
-- name: voice\us\battle\mu1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\mu1_sora.win32.scd
-- name: voice\us\battle\mu3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\mu3_sora.win32.scd
-- name: voice\us\battle\nm1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\nm1_sora.win32.scd
-- name: voice\us\battle\nm3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\nm3_sora.win32.scd
-- name: voice\us\battle\po1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\po1_sora.win32.scd
-- name: voice\us\battle\po3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\po3_sora.win32.scd
-- name: voice\us\battle\tr1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\tr1_sora.win32.scd
-- name: voice\us\battle\tr3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\tr3_sora.win32.scd
-- name: voice\us\battle\tt1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\tt1_sora.win32.scd
-- name: voice\us\battle\tt3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\tt3_sora.win32.scd
-- name: voice\us\battle\wi1_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\wi1_sora.win32.scd
-- name: voice\us\battle\wi3_sora.win32.scd
-  method: copy
-  source:
-  - name: voice\us\battle\wi3_sora.win32.scd
