@@ -373,14 +373,14 @@ assets:
   - name: remastered\obj\P_EX103_BTLF.a.us\-1.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX100_BTLF.a.us\-1.dds
+  - name: remastered\obj\P_EX100_BTLF.a.us\-2.dds
     type: internal
 - name: remastered\obj\P_EX101_BTLF.a.us\-2.dds
   multi:
   - name: remastered\obj\P_EX103_BTLF.a.us\-2.dds
   method: copy
   source:
-  - name: remastered\obj\P_EX100_BTLF.a.us\-2.dds
+  - name: remastered\obj\P_EX100_BTLF.a.us\-1.dds
     type: internal
 - name: remastered\obj\P_EX101_BTLF.a.us\-3.dds
   multi:
