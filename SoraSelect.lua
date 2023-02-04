@@ -11,6 +11,7 @@ end
 
 --So, goal;
 function _OnFrame()
+roomtransition = ReadByte(0x715568-0x56454E)
 Obj0 = ReadLong(0x02A22730-0x56454E), true
 StringCheck = ReadString(Obj0+0x13F0, 7, true)
 --if StringCheck == 'P_EX100'
@@ -31,7 +32,7 @@ elseif ReadShort(Settings) & 0x400 == 0x400 then
 	OptionC = true
 end
 
-if OptionA == true and StringCheck ~= 'P_EX101' then
+if OptionA == true and StringCheck ~= 'P_EX101' and roomtransition ~= 1 then
 	ConsolePrint("KH1 Sora: Loaded")
 	WriteString(Obj0+0x13F0, 'P_EX101\0', true)
 	WriteString(Obj0+0x1450, 'P_EX101_BTLF\0', true)
@@ -41,7 +42,7 @@ if OptionA == true and StringCheck ~= 'P_EX101' then
 	WriteString(Obj0+0x15D0, 'P_EX101_HTLF\0', true)
 	WriteString(Obj0+0x291D0, 'P_EX101_KH1F\0', true)
 end
-if OptionB == true and StringCheck ~= 'P_EX100' then
+if OptionB == true and StringCheck ~= 'P_EX100' and roomtransition ~= 1 then
 	ConsolePrint("KH2 Sora: Loaded")
 	WriteString(Obj0+0x13F0, 'P_EX100\0', true)
 	WriteString(Obj0+0x1450, 'P_EX100_BTLF\0', true)
@@ -51,7 +52,7 @@ if OptionB == true and StringCheck ~= 'P_EX100' then
 	WriteString(Obj0+0x15D0, 'P_EX100_HTLF\0', true)
 	WriteString(Obj0+0x291D0, 'P_EX100_KH1F\0', true)
 end
-if OptionC == true and StringCheck ~= 'P_EX103' then
+if OptionC == true and StringCheck ~= 'P_EX103' and roomtransition ~= 1 then
 	ConsolePrint("KH3 Sora: Loaded")
 	WriteString(Obj0+0x13F0, 'P_EX103\0', true)
 	WriteString(Obj0+0x1450, 'P_EX103_BTLF\0', true)
@@ -63,6 +64,3 @@ if OptionC == true and StringCheck ~= 'P_EX103' then
 end
 
 end
-
-
-
