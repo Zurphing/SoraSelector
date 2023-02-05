@@ -55,7 +55,7 @@ assets:
   method: copy
   source:
   - name: kh3
-#Models:
+#Models: GAMEPLAY
 - name: obj\P_EX101.mdlx
   method: copy
   source:
@@ -148,6 +148,33 @@ assets:
   method: copy
   source:
   - name: obj\P_EX103_ULTF.mdlx
+
+#Models: CUTSCENE HIGH POLY
+- name: obj\H_EX503.mdlx
+  method: copy
+  source:
+  - name: obj\H_EX503.mdlx
+- name: obj\H_EX503_BTLF.mdlx
+  method: copy
+  source:
+  - name: obj\H_EX503_BTLF.mdlx
+- name: obj\H_EX503_KH1F.mdlx
+  method: copy
+  source:
+  - name: obj\H_EX503_KH1F.mdlx
+- name: obj\H_EX503_MAGF.mdlx
+  method: copy
+  source:
+  - name: obj\H_EX503_MAGF.mdlx
+- name: obj\H_EX503_TRIF.mdlx
+  method: copy
+  source:
+  - name: obj\H_EX503_TRIF.mdlx
+- name: obj\H_EX503_ULTF.mdlx
+  method: copy
+  source:
+  - name: obj\H_EX503_ULTF.mdlx
+
 #Effects for every form.
 - name: obj\P_EX101.a.us
   multi:
@@ -1592,3 +1619,101 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX103_ULTF.mdlx\-5.dds
+
+#MDLX HD TEXTURES: Cutscene High POLY
+- name: remastered\obj\H_EX503.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503.mdlx\-0.dds
+- name: remastered\obj\H_EX503.mdlx\-1.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503.mdlx\-1.dds
+- name: remastered\obj\H_EX503.mdlx\-2.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503.mdlx\-2.dds
+- name: remastered\obj\H_EX503.mdlx\-3.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503.mdlx\-3.dds
+- name: remastered\obj\H_EX503_BTLF.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_BTLF.mdlx\-0.dds
+- name: remastered\obj\H_EX503_BTLF.mdlx\-1.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_BTLF.mdlx\-1.dds
+- name: remastered\obj\H_EX503_BTLF.mdlx\-2.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_BTLF.mdlx\-2.dds
+- name: remastered\obj\H_EX503_BTLF.mdlx\-3.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_BTLF.mdlx\-3.dds
+- name: remastered\obj\H_EX503_KH1F.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_KH1F.mdlx\-0.dds
+- name: remastered\obj\H_EX503_KH1F.mdlx\-1.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_KH1F.mdlx\-1.dds
+- name: remastered\obj\H_EX503_KH1F.mdlx\-2.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_KH1F.mdlx\-2.dds
+- name: remastered\obj\H_EX503_KH1F.mdlx\-3.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_KH1F.mdlx\-3.dds
+- name: remastered\obj\H_EX503_MAGF.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_MAGF.mdlx\-0.dds
+- name: remastered\obj\H_EX503_MAGF.mdlx\-1.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_MAGF.mdlx\-1.dds
+- name: remastered\obj\H_EX503_MAGF.mdlx\-2.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_MAGF.mdlx\-2.dds
+- name: remastered\obj\H_EX503_MAGF.mdlx\-3.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_MAGF.mdlx\-3.dds
+- name: remastered\obj\H_EX503_TRIF.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_TRIF.mdlx\-0.dds
+- name: remastered\obj\H_EX503_TRIF.mdlx\-1.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_TRIF.mdlx\-1.dds
+- name: remastered\obj\H_EX503_TRIF.mdlx\-2.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_TRIF.mdlx\-2.dds
+- name: remastered\obj\H_EX503_TRIF.mdlx\-3.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_TRIF.mdlx\-3.dds
+- name: remastered\obj\H_EX503_ULTF.mdlx\-0.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_ULTF.mdlx\-0.dds
+- name: remastered\obj\H_EX503_ULTF.mdlx\-1.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_ULTF.mdlx\-1.dds
+- name: remastered\obj\H_EX503_ULTF.mdlx\-2.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_ULTF.mdlx\-2.dds
+- name: remastered\obj\H_EX503_ULTF.mdlx\-3.dds
+  method: copy
+  source:
+  - name: remastered\obj\H_EX503_ULTF.mdlx\-3.dds
